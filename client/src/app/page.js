@@ -7,7 +7,7 @@ export default async function getData() {
     throw new Error("Failed to fetch data");
   }
   const data = await res.json();
-  return <main>{data.message}</main>;
+  return <main>{(data.message = "default")}</main>;
 }
 
 // This is also way to write same code as above in better way..:)

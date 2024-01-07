@@ -1,3 +1,4 @@
 # Ignore all files and directories in the client folder
 node_modules
+.next
 ```
